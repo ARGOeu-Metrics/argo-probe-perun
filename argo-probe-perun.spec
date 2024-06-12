@@ -29,6 +29,6 @@ install --mode 755 ./check_perun  ${RPM_BUILD_ROOT}%{dir}
 rm -rf $RPM_BUILD_ROOT
 
 
-%files -f INSTALLED_FILES
+%files
 %defattr(-,root,root,-)
 %{dir}
