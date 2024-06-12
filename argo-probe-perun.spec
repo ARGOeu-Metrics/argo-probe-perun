@@ -22,7 +22,7 @@ Package contains probe check_perun that checks Perun service
 %install
 rm -rf $RPM_BUILD_ROOT
 install --directory ${RPM_BUILD_ROOT}%{dir}
-install --mode 755 src/*  ${RPM_BUILD_ROOT}%{dir}
+install --mode 755 ./check_perun  ${RPM_BUILD_ROOT}%{dir}
 
 
 %clean
