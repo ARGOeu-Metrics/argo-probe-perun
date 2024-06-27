@@ -32,3 +32,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root,-)
 %{dir}
+
+
+%changelog
+* Thu Jun 27 2024 Katarina Zailac <kzailac@srce.hr> - 0.9.0-1%{?dist}
+- AO-977 Move check_perun probe to separate package
